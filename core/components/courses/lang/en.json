@@ -1,0 +1,17 @@
+{
+	"confirmselfenrol": "Are you sure you want to enrol yourself in this module?",
+	"enrolme": "Enrol me",
+	"errorloadcourses": "An error occurred while loading modules.",
+	"errorsearching": "An error occurred while searching.",
+	"errorselfenrol": "An error occurred while self enroling.",
+	"filtermycourses": "Filter my moduless",
+	"frontpage": "Front page",
+	"mycourses": "My modules",
+	"nosearchresults": "There were no results from your search",
+	"notenrollable": "You can not enrol yourself in this module.",
+	"password": "Enrolment key",
+	"search": "Search",
+	"searchcourses": "Search modules",
+	"selfenrolment": "Self-enrolment",
+	"totalcoursesearchresults": "Total modules: {{$a}}"
+}
