@@ -29,7 +29,7 @@
 display:none !important;
 }
 
-.scroll .list li[ng-if="versionname"], .scroll .list li[ng-if="versioncode"],.scroll .list li[ng-if="navigator && navigator.language"],.scroll .list li[ng-if="appready"],.scroll .list li[ng-if="currentlanguage"],.scroll .list li[ng-if="devicewebworkers"],.scroll .list li[ng-if="storagetype"],.scroll .list li[ng-if="localnotifavailable"],.scroll .list li[ng-if="locationhref"]{
+.scroll .list li[ng-if="versionname"], .scroll .list li[ng-if="versioncode"],.scroll .list li[ng-if="navigator && navigator.language"],.scroll .list li[ng-if="appready"],.scroll .list li[ng-if="currentlanguage"],.scroll .list li[ng-if="devicewebworkers"],.scroll .list li[ng-if="storagetype"],.scroll .list li[ng-if="localnotifavailable"],.scroll .list li[ng-if="locationhref"],.scroll .list li[ng-if="device && device.cordova"],.scroll .list li[ng-if="device && device.platform"],.scroll .list li[ng-if="device && device.version"],.scroll .list li[ng-if="device && device.model"],.scroll .list li[ng-if="device && device.uuid"],.scroll .list li[ng-if="filesystemroot"]{
 	display:none !important;
 }
 
