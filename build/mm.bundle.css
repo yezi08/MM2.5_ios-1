@@ -16,7 +16,7 @@
   Modified icons to fit ionicon’s grid from original.
 */
 
-/***xjtlu change, hide adding another use when log in*/
+/**************************xjtlu change, hide adding another use when log in**********************************/
 .item-thumbnail-left .item-content > img:first-child{
 	border-radius:50% !important;
 }
@@ -28,7 +28,16 @@
 .pane .list li a[title=Language], li a[title="Front page"], li a[title="My files"], a[title="Participants"], a[title="Notes"], a[title="Add a new note"], a[title="View course report"]{
 display:none !important;
 }
-/****/
+
+.scroll .list li[ng-if="versionname"], .scroll .list li[ng-if="versioncode"],.scroll .list li[ng-if="navigator && navigator.language"],.scroll .list li[ng-if="appready"],.scroll .list li[ng-if="currentlanguage"],.scroll .list li[ng-if="devicewebworkers"],.scroll .list li[ng-if="storagetype"],.scroll .list li[ng-if="localnotifavailable"],.scroll .list li[ng-if="locationhref"]{
+	display:none !important;
+}
+
+.list li[ng-if="appsetting-about-license-title"], .list li[ng-if="appsetting-about-license-detail"]{
+	display:none !important;
+}
+
+/************************************************************************/
 
 @font-face {
   font-family: "Ionicons";
